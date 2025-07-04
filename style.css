@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* Start font */
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chonburi-regular {
+  font-family: "Chonburi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* End font */
+
+body {
+  background-color: paleturquoise;
+  color: #333;
+}
+
+/* Start Banner */
+.header {
+	background-color: #FFBD59;
+	text-align: center;
+}
+
+.img-head{
+	width: 1000px; /* 100% or 1000px */
+}
+/* End Banner */
+
+/* Start Navigation */
+.navigator{
+	background-color: #FFF4CC;
+}
+
+.menubar {
+	background-color: #ffae00;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.ul-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1d8d59;
+}
+
+.li-menu {
+  float: left;
+}
+
+.li-menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li-menu a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/* Content */
+.content{
+	width: 800px;
+	clear: both;
+	margin: 10px auto;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid #999;
+}
+
+/* Images */
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+/* Footer */
+.footer{
+	background-color: #FF9900;
+	clear: both;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 18px;
+	color: #FFF;
+}
